@@ -1,0 +1,15 @@
+#Big Query And Python
+
+google-cloud-bigquery 
+google-cloud-storage 
+pandas 
+python-dotenv
+Faker
+pyarrow
+
+# For Streamlit
+
+streamlit
+plotly
+folium
+streamlit-folium
