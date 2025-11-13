@@ -73,15 +73,6 @@
 <li>Implementation: Python scripts → BigQuery tables</li>
 </ul>
 
-<pre><code>CREATE TABLE bronze_events (
-  event_id STRING,
-  user_id STRING,
-  event_type STRING,
-  timestamp TIMESTAMP,
-  raw_payload STRING
-);
-</code></pre>
-
 <h3>⚪ Silver Layer (Cleansed & Modeled)</h3>
 <ul>
 <li>Cleaned and enriched fact/dim tables.</li>
@@ -191,3 +182,4 @@ DATASET_ID=ecommerce_pipeline
 </ul>
 
 <p align="center">💡 Built with ❤️ by <strong>Vishnu Vardhan</strong> for Data Engineering Enthusiasts</p>
+
