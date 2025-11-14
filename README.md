@@ -19,9 +19,6 @@
   <li>Build dimensional models for efficient analytics.</li>
   <li>Provide dashboards for actionable insights.</li>
 </ul>
-
-<p>The pipeline supports <strong>sessionization</strong> and <strong>SCD Type 2</strong> for historical tracking of dimensions.</p>
-
 <hr>
 
 <h2>⚙️ Features</h2>
@@ -124,10 +121,10 @@ DATASET_ID=ecommerce_pipeline
 
 <h3>Run the Pipeline</h3>
 <ul>
-<li>Ingest to Bronze: <code>python scripts/ingest_bronze.py</code></li>
-<li>Transform to Silver: <code>python scripts/etl_silver.py</code></li>
-<li>Aggregate to Gold: <code>python scripts/aggregate_gold.py</code></li>
-<li>Launch Dashboard: <code>streamlit run app/dashboard.py</code></li>
+<li>Ingest to Bronze: <code>Project/ecom_Bronze_Layer</code></li>
+<li>Transform to Silver: <code>Project/ecom_Silver_Layer</code></li>
+<li>Aggregate to Gold: <code>Project/ecom_Gold_Layer</code></li>
+<li>Launch Dashboard: <code>streamlit run app/app.py</code></li>
 </ul>
 
 <h3>Optional Orchestration</h3>
@@ -182,4 +179,5 @@ DATASET_ID=ecommerce_pipeline
 </ul>
 
 <p align="center">💡 Built with ❤️ by <strong>Vishnu Vardhan</strong> for Data Engineering Enthusiasts</p>
+
 
